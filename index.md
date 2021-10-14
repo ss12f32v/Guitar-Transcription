@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+This is the demo page for the paper Towards Automatic Transcription of Polyphonic Electric Guitar Music: A new Dataset and A Multi-loss Transformer Model
 
-You can use the [editor on GitHub](https://github.com/ss12f32v/Guitar-Transcription/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Abstract
+The guitar is widely used in various musical genres and is one of the most accessible instruments people can play. However, research on guitar signal processing, such as automatic guitar transcription, has not drawn much attention in recent years, possibly due to the scarce of relevant labeled datasets. In this paper, we propose a new dataset named StratocasterDB, that contains annotations of the electric guitar performance of 240 tablatures rendered with different tones. Moreover, we benchmark the performance of two well-known transcription models proposed originally for the piano on this  dataset, along with a multi-loss Transformer model that we newly propose. Our evaluation on this dataset and a separate set of real-world recordings demonstrate the influence of timbre on the accuracy of guitar transcription, the potential of using multiple losses for Transformers, as well as the room for improvement for this task.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Realistic Data Transcription
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Training Data Sample
+<!-- Audio in the same row share identical first 4 bars prompt. ***No grooving*** and ***Hard grooving***  model are asked to generate 16-bar continuations based on the prompt input. -->
 
-```markdown
-Syntax highlighted code block
+<!-- |   |Real data|No grooving|Hard grooving| -->
+<!-- |1.|<audio src="result/real data/0.wav" controls="" preload=""></audio>|<audio src="result/no grooving/0.wav" controls="" preload=""></audio>|<audio src="result/hard grooving/0.wav" controls="" preload=""></audio>|
+|2.|<audio src="result/real data/1.wav" controls="" preload=""></audio>|<audio src="result/no grooving/1.wav" controls="" preload=""></audio>|<audio src="result/hard grooving/1.wav" controls="" preload=""></audio>|
+|3.|<audio src="result/real data/2.wav" controls="" preload=""></audio>|<audio src="result/no grooving/2.wav" controls="" preload=""></audio>|<audio src="result/hard grooving/2.wav" controls="" preload=""></audio>|
+|4.|<audio src="result/real data/3.wav" controls="" preload=""></audio>|<audio src="result/no grooving/3.wav" controls="" preload=""></audio>|<audio src="result/hard grooving/3.wav" controls="" preload=""></audio>|
+|5.|<audio src="result/real data/4.wav" controls="" preload=""></audio>|<audio src="result/no grooving/4.wav" controls="" preload=""></audio>|<audio src="result/hard grooving/4.wav" controls="" preload=""></audio>| -->
 
-# Header 1
-## Header 2
-### Header 3
+<!-- ### Demo Video
+This video recording is a guitarist from our team playing a generated tab which is generated from scratch.
+<iframe width="800" height="500" src="https://www.youtube.com/embed/yccH6kvinq0">
+</iframe> -->
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ss12f32v/Guitar-Transcription/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Contact 
+Yu-Hua Chen f08946011@ntu.edu.tw
