@@ -17,6 +17,11 @@ Audio are sampled from training split with different timbre in each column.
 
 |Source|OAF|CE-only Transformer|Proposed model|
 
+|<audio src="Guitar_Transcription_sample/RealData/clip1.wav" controls="" preload=""></audio>||||
+|<audio src="Guitar_Transcription_sample/RealData/clip2.wav" controls="" preload=""></audio>||||
+|<audio src="Guitar_Transcription_sample/RealData/clip3.wav" controls="" preload=""></audio>||||
+|<audio src="Guitar_Transcription_sample/RealData/clip4.wav" controls="" preload=""></audio>||||
+|<audio src="Guitar_Transcription_sample/RealData/clip5.wav" controls="" preload=""></audio>||||
 
 <!-- ### Demo Video
 This video recording is a guitarist from our team playing a generated tab which is generated from scratch.
