@@ -1,7 +1,7 @@
 This is the demo page for the paper **Towards Automatic Transcription of Polyphonic Electric Guitar Music: A new Dataset and A Multi-loss Transformer Model**
 
 ## Abstract
-In this paper, we propose a new dataset named EGDB, that con-tains transcriptions of the electric guitar performance of 240 tab-latures rendered with different tones. Moreover, we benchmark theperformance of two well-known transcription models proposed orig-inally for the piano on this dataset, along with a multi-loss Trans-former model that we newly propose. Our evaluation on this dataset and a separate set of real-world recordings demonstrate the influenceof timbre on the accuracy of guitar sheet transcription, the potentialof using multiple losses for Transformers, as well as the room forfurther improvement for this task.
+In this paper, we propose a new dataset named EGDB, that contains transcriptions of the electric guitar performance of 240 tablatures rendered with different tones. Moreover, we benchmark theperformance of two well-known transcription models proposed originally for the piano on this dataset, along with a multi-loss Trans-former model that we newly propose. Our evaluation on this dataset and a separate set of real-world recordings demonstrate the influenceof timbre on the accuracy of guitar sheet transcription, the potentialof using multiple losses for Transformers, as well as the room forfurther improvement for this task.
 
 
 ### Training Data Sample
